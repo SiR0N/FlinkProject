@@ -1,5 +1,20 @@
 # FlinkProject
 
+Drivers, fleet owners, transport operations, insurance companies are stakeholders of
+vehicle monitoring applications which need to have analytical reporting on the mobility patterns of their
+vehicles, as well as real-time views in order to support quick and efficient decisions towards eco-friendly
+moves, cost-effective maintenance of vehicles, improved navigation, safety and adaptive risk
+management.
+
+Vehicle sensors do continuously provide data, while on-the-move, which are processed in order to
+provide valuable information to stakeholders. Applications identify speed violations, abnormal driver
+behaviors, and/or other extraordinary vehicle machine conditions, produce statistics per
+driver/vehicle/fleet/trip, correlate events with map positions and route, assist navigation, monitor fuel
+consumptions, and perform many other reporting and alerting functions.
+
+In this project we consider that each vehicle reports a position event every 30 seconds with the
+following format: Time, VID, Spd, XWay, Lane, Dir, Seg, Pos
+
 The goal of this project is to develop a Java program using Flink implementing the following functionality:
 
 - Speed Radar: detect cars that overcome the speed limit of 90 mph
